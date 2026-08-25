@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnViewMoreCities && extraCities) {
         btnViewMoreCities.addEventListener('click', () => {
             if (extraCities.style.display === 'none') {
-                extraCities.style.display = 'flex';
+                extraCities.style.display = 'grid';
                 btnViewMoreCities.textContent = 'View Less States';
             } else {
                 extraCities.style.display = 'none';

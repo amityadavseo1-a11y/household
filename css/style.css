@@ -139,6 +139,45 @@ header {
     color: var(--primary-color);
 }
 
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1001;
+    border-radius: 8px;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: #555;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: var(--primary-color);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .contact-number {
     border-left: 2px solid #ddd;
     padding-left: 25px;
@@ -430,7 +469,7 @@ header {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
@@ -438,7 +477,7 @@ header {
 .service-card {
     background: var(--white);
     border-radius: 20px;
-    padding: 40px 30px;
+    padding: 20px 15px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
@@ -458,15 +497,15 @@ header {
 }
 
 .service-icon {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, rgba(3, 82, 208, 0.1), rgba(9, 159, 199, 0.1));
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 20px;
-    font-size: 2rem;
+    margin: 0 auto 15px;
+    font-size: 1.5rem;
     color: var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -931,7 +970,7 @@ header {
 /* Popular Routes Section */
 .routes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
 }
 
@@ -1105,7 +1144,7 @@ footer {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 40px;
     margin-bottom: 40px;
 }
@@ -1402,3 +1441,23 @@ footer {
         max-width: calc(100% - 30px);
     }
 }
+
+@media (max-width: 768px) {
+    .cities-grid, .routes-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 10px;
+    }
+    .city-pill, .route-card {
+        font-size: 14px;
+        padding: 8px 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cities-grid, .routes-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
