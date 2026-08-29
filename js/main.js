@@ -165,4 +165,94 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    // Calculator Widget Logic
+    const calcRates = {
+        local: {
+            distances: [
+                { value: 'upto10', label: 'UPTO 10 KM' },
+                { value: '11to20', label: '11-20 KM' },
+                { value: '20to50', label: '20-50 KM' }
+            ],
+            rates: {
+                '1bhk': { upto10: '₹1,900 - ₹7,000', '11to20': '₹2,800 - ₹8,200', '20to50': '₹3,500 - ₹9,000' },
+                '2bhk': { upto10: '₹2,000 - ₹8,200', '11to20': '₹3,000 - ₹10,500', '20to50': '₹3,000 - ₹11,800' },
+                '3bhk': { upto10: '₹2,800 - ₹15,500', '11to20': '₹5,500 - ₹20,000', '20to50': '₹7,800 - ₹20,500' },
+                '4bhk': { upto10: '₹5,000 - ₹13,800', '11to20': '₹6,000 - ₹15,800', '20to50': '₹7,000 - ₹18,500' },
+                'complete': { upto10: '₹8,500 - ₹21,500', '11to20': '₹8,500 - ₹29,000', '20to50': '₹9,000 - ₹37,700' }
+            }
+        },
+        long: {
+            distances: [
+                { value: 'upto500', label: 'UPTO 500 KM' },
+                { value: '500to1000', label: '500-1000 KM' },
+                { value: 'above1000', label: '1000+ KM' }
+            ],
+            rates: {
+                '1bhk': { upto500: '₹11,000 - ₹24,000', '500to1000': '₹14,500 - ₹32,000', above1000: '₹18,000 - ₹40,000' },
+                '2bhk': { upto500: '₹15,000 - ₹32,000', '500to1000': '₹18,000 - ₹40,000', above1000: '₹22,000 - ₹50,000' },
+                '3bhk': { upto500: '₹20,000 - ₹40,000', '500to1000': '₹24,000 - ₹50,000', above1000: '₹28,000 - ₹65,000' },
+                '4bhk': { upto500: '₹25,000 - ₹50,000', '500to1000': '₹30,000 - ₹60,000', above1000: '₹35,000 - ₹80,000' },
+                'complete': { upto500: '₹35,000 - ₹65,000', '500to1000': '₹40,000 - ₹80,000', above1000: '₹50,000 - ₹1,00,000' }
+            }
+        }
+    };
+
+    const moveTypeSelect = document.getElementById('moveType');
+    const propertyTypeSelect = document.getElementById('propertyType');
+    const moveDistanceSelect = document.getElementById('moveDistance');
+    const calcBtn = document.getElementById('calcBtn');
+    const calcResult = document.getElementById('calcResult');
+    const calcPrice = document.getElementById('calcPrice');
+
+    if (moveTypeSelect && propertyTypeSelect && moveDistanceSelect && calcBtn && calcResult && calcPrice) {
+        const updateDistanceOptions = () => {
+            const selectedType = moveTypeSelect.value;
+            const distances = calcRates[selectedType].distances;
+            moveDistanceSelect.innerHTML = '';
+            distances.forEach(d => {
+                const option = document.createElement('option');
+                option.value = d.value;
+                option.textContent = d.label;
+                moveDistanceSelect.appendChild(option);
+            });
+        };
+
+        moveTypeSelect.addEventListener('change', updateDistanceOptions);
+
+        calcBtn.addEventListener('click', () => {
+            const selectedType = moveTypeSelect.value;
+            const selectedProperty = propertyTypeSelect.value;
+            const selectedDistance = moveDistanceSelect.value;
+            
+            const price = calcRates[selectedType].rates[selectedProperty][selectedDistance];
+            
+            calcPrice.textContent = price;
+            calcResult.style.display = 'block';
+        });
+
+        // Initialize distance options on load
+        updateDistanceOptions();
+    }
+
+    // Paytm Payment Modal Logic
+    const paytmModal = document.getElementById('paytmModal');
+    const openPaytmModalBtn = document.getElementById('open-paytm-modal');
+    const closePaytmModalBtn = document.querySelector('.close-paytm');
+
+    if (paytmModal && openPaytmModalBtn && closePaytmModalBtn) {
+        openPaytmModalBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            paytmModal.style.display = 'block';
+        });
+
+        closePaytmModalBtn.addEventListener('click', () => {
+            paytmModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === paytmModal) {
+                paytmModal.style.display = 'none';
+            }
+        });
+    }
 });
