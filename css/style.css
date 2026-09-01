@@ -1461,3 +1461,107 @@ footer {
 }
 
 
+
+/* Household Type Container Styles */
+.household-type-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.household-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.household-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 600px) {
+    .household-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.household-card {
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+.household-card input[type="radio"] {
+    display: none;
+}
+
+.card-content {
+    display: flex;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.household-card input[type="radio"]:checked + .card-content {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 10px rgba(3, 82, 208, 0.15);
+}
+
+.radio-indicator {
+    width: 40px;
+    background-color: #888;
+    position: relative;
+    flex-shrink: 0;
+    transition: background-color 0.3s;
+}
+
+.household-card input[type="radio"]:checked + .card-content .radio-indicator {
+    background-color: var(--primary-color);
+}
+
+.radio-indicator::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.card-text h5 {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.card-text p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.4;
+    margin: 0;
+}
+

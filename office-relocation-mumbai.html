@@ -50,7 +50,7 @@
     <header>
         <div class="container navbar">
             <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="Household Packers Logo" class="site-logo">
+                <img src="images/logo.png" alt="Household Packers" class="site-logo">
             </a>
             <div class="mobile-actions">
                 <div class="mobile-quote-wrapper" style="display: flex; flex-direction: column; align-items: center; position: relative;">
@@ -87,7 +87,7 @@
         </div>
         <div class="container hero-content">
             <div class="hero-text">
-                <h1>Top Office Relocation service in Mumbai , <br>Compare & <br><span>Save upto 25%*</span></h1>
+                <h1>Top Office Relocation <br>in Mumbai, Compare & <br><span>Save upto 25%*</span></h1>
                 <div class="hero-features">
                     <div class="feature-item">
                         <div class="feature-icon">&#128666;</div>
@@ -132,9 +132,55 @@
                     </div>
                     <div class="form-group checkbox-group">
                         <label class="group-label">Want To Shift :</label>
-                        <label><input type="checkbox" name="shift_type" value="Household"> Household</label>
+                        <label><input type="checkbox" name="shift_type" value="Household" id="household_checkbox"> Household</label>
                         <label><input type="checkbox" name="shift_type" value="Car"> Car</label>
                         <label><input type="checkbox" name="shift_type" value="Bike"> Bike</label>
+                    </div>
+                    
+                    <div class="household-type-container" id="householdTypeContainer" style="display: none;">
+                        <h4 class="household-title">Choose the Household Type</h4>
+                        <div class="household-grid">
+                            <label class="household-card">
+                                <input type="radio" name="household_type" value="Single Item">
+                                <div class="card-content">
+                                    <div class="radio-indicator"></div>
+                                    <div class="card-text">
+                                        <h5>Single Item</h5>
+                                        <p>Single items like Books, Clothes, Luggage, Mattress etc</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="household-card">
+                                <input type="radio" name="household_type" value="Few Items">
+                                <div class="card-content">
+                                    <div class="radio-indicator"></div>
+                                    <div class="card-text">
+                                        <h5>Few Items</h5>
+                                        <p>2-5 cartons/boxes, Single bedroom items without any furniture</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="household-card">
+                                <input type="radio" name="household_type" value="1BHK">
+                                <div class="card-content">
+                                    <div class="radio-indicator"></div>
+                                    <div class="card-text">
+                                        <h5>1BHK</h5>
+                                        <p>Furniture + Complete household items for 1BHK</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <label class="household-card">
+                                <input type="radio" name="household_type" value="2BHK+">
+                                <div class="card-content">
+                                    <div class="radio-indicator"></div>
+                                    <div class="card-text">
+                                        <h5>2BHK+</h5>
+                                        <p>Furniture + Complete household items for 2BHK or more</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group radio-group">
                         <label class="group-label">Shifting Date :</label>
@@ -146,8 +192,15 @@
                         <textarea placeholder="Please Mention Details of Items You Want to Shift." rows="2"></textarea>
                     </div>
                     <div class="form-row terms-row">
-                        <div class="captcha-box">
-                            <input type="checkbox" id="robot"> <label for="robot">I'm not a robot</label>
+                        <div class="captcha-box" style="display: flex; align-items: center; justify-content: space-between; background: #f9f9f9; border: 1px solid #d3d3d3; border-radius: 3px; padding: 8px 10px; width: auto; max-width: 220px; margin-bottom: 0; box-shadow: 0 0 4px 1px rgba(0,0,0,0.08); flex-shrink: 0;">
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="robot" style="width: 28px; height: 28px; margin-right: 12px; cursor: pointer;"> 
+                                <label for="robot" style="font-size: 14px; font-weight: 500; color: #222; cursor: pointer; font-family: 'Roboto', sans-serif;">I'm not a robot</label>
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: center; margin-left: 10px;">
+                                <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" style="width: 32px; height: 32px;">
+                                <span style="font-size: 10px; color: #555; margin-top: 2px;">reCAPTCHA</span>
+                            </div>
                         </div>
                         <div class="terms-box">
                             <input type="checkbox" id="terms" required checked> <label for="terms">I Accept <a href="#">Terms & Conditions</a></label>
@@ -212,7 +265,7 @@
                 
                 <div class="about-image-wrapper animate-on-scroll" style="transition-delay: 0.2s;">
                     <div class="about-image-container">
-                        <img src="images/India_movers.jpg" alt="Office Relocation Services in Mumbai">
+                        <img src="images/about_office.jpg" alt="Household Packers">
                     </div>
                 </div>
             </div>
@@ -572,7 +625,7 @@
             <h2 class="section-title animate-on-scroll" style="margin-bottom: 40px;">Our Recent Blogs</h2>
             <div class="blog-grid animate-on-scroll">
                 <a href="blog.html" class="blog-card">
-                    <img src="images/blog_moving_tips_1787215910231.jpg" alt="Moving Tips">
+                    <img src="images/blog_moving_tips_1787215910231.jpg" alt="Household Packers">
                     <div class="blog-content">
                         <span class="blog-category">Moving Tips</span>
                         <h3>Top 10 Tips for a Stress-Free Move</h3>
@@ -582,7 +635,7 @@
                 </a>
                 
                 <a href="blog.html" class="blog-card">
-                    <img src="images/blog_packing_guide_1787215928271.jpg" alt="Packing Guide">
+                    <img src="images/blog_packing_guide_1787215928271.jpg" alt="Household Packers">
                     <div class="blog-content">
                         <span class="blog-category">Packing Guide</span>
                         <h3>How to Choose the Right Packing Materials</h3>
@@ -592,7 +645,7 @@
                 </a>
                 
                 <a href="blog.html" class="blog-card">
-                    <img src="images/blog_office_relocation_1787215955789.jpg" alt="Office Relocation">
+                    <img src="images/blog_office_relocation_1787215955789.jpg" alt="Household Packers">
                     <div class="blog-content">
                         <span class="blog-category">Corporate</span>
                         <h3>A Smooth Guide to Office Relocation</h3>
@@ -641,7 +694,7 @@
                 </div>
                 <div class="footer-col footer-contact-custom">
                     <h4 class="custom-logo" style="margin-bottom: 20px;">
-                        <img src="images/logo.png" alt="Household Packers Logo" class="site-logo" style="max-height: 50px;">
+                        <img src="images/logo.png" alt="Household Packers" class="site-logo" style="max-height: 50px;">
                     </h4>
                     <ul class="custom-contact-list">
                         <li>

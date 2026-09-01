@@ -256,3 +256,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const householdCheckbox = document.getElementById("household_checkbox");
+    const householdContainer = document.getElementById("householdTypeContainer");
+    
+    if (householdCheckbox && householdContainer) {
+        householdCheckbox.addEventListener("change", function() {
+            if (this.checked) {
+                householdContainer.style.display = "block";
+            } else {
+                householdContainer.style.display = "none";
+                // Optionally uncheck radio buttons when hiding
+                const radios = householdContainer.querySelectorAll("input[type='radio']");
+                radios.forEach(r => r.checked = false);
+            }
+        });
+    }
+});
+
