@@ -1565,3 +1565,34 @@ footer {
     margin: 0;
 }
 
+/* Floating How It Works Mobile Fix */
+@media (max-width: 850px) {
+    .floating-how {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .how-header {
+        width: 100%;
+        clip-path: none;
+        border-right: none;
+        border-bottom: 2px solid #0277bd;
+        border-radius: 8px 8px 0 0;
+        text-align: center;
+        padding: 15px;
+    }
+    .how-steps-flex {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+    }
+    .how-step {
+        width: 100%;
+        justify-content: center;
+    }
+    .how-arrow {
+        transform: rotate(90deg);
+        margin: 5px 0;
+    }
+}
+
+
