@@ -385,6 +385,8 @@ header {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .btn-submit {
@@ -644,7 +646,6 @@ header {
     
     .about-image-wrapper {
         padding-top: 40px;
-        min-height: 350px;
     }
 }
 
@@ -759,25 +760,23 @@ header {
 .about-image-wrapper {
     flex: 1;
     position: relative;
-    padding: 15px 15px 0 0;
+    padding: 0 15px 15px 0;
 }
 
 .about-image-container {
-    position: absolute;
-    top: 15px;
-    left: 0;
-    right: 15px;
-    bottom: 0;
+    position: relative;
     border-radius: 12px;
+    width: 100%;
+    height: 100%;
 }
 
 .about-image-container::before {
     content: '';
     position: absolute;
-    top: -12px;
-    right: -12px;
-    bottom: 12px;
-    left: 12px;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
     border: 2px solid #ff3b30;
     border-radius: 15px;
     z-index: 0;
@@ -786,6 +785,7 @@ header {
 .about-image-container img {
     width: 100%;
     height: 100%;
+    min-height: 450px;
     object-fit: cover;
     border-radius: 12px;
     position: relative;
@@ -1596,3 +1596,10 @@ footer {
 }
 
 
+
+@media (max-width: 600px) {
+    .terms-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
