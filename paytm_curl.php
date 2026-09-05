@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="https://www.householdpackers.com/media/images/fav-icons/favicon.ico?v=vMrP7OOz2v">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Pay Through Paytm</title>
+<meta name="description" content="">
+<link rel="canonical" href="https://www.householdpackers.com/paytm-payment" />
+<link rel="alternate" hreflang="en" href="https://www.householdpackers.com/paytm-payment" />
+<meta name="robots" content="index, follow" />
+<meta name="distribution" content="global" />
+<meta name="Content-Language" content="EN" />
+<meta name="geo.region" content="IN" />
+<meta name="rating" content="Safe for Kids" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://www.householdpackers.com/scripts/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://www.householdpackers.com/scripts/css/style.css" rel="stylesheet">
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64068343-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64068343-2');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 806653057 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-806653057"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-806653057');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T82WGQPW');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T82WGQPW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Lazy Load Global Tracking -->
+<script>
+let globalTrackingLoaded = false;
+function loadGlobalTracking() {
+    if(globalTrackingLoaded) return;
+    globalTrackingLoaded = true;
+
+    // Google Analytics & Google Tag
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-64068343-2');
+    gtag('config', 'G-G58VBJCYF0');
+
+    var ga1 = document.createElement('script'); ga1.async = true; ga1.src = "https://www.googletagmanager.com/gtag/js?id=UA-64068343-2"; document.head.appendChild(ga1);
+    var ga2 = document.createElement('script'); ga2.async = true; ga2.src = "https://www.googletagmanager.com/gtag/js?id=G-G58VBJCYF0"; document.head.appendChild(ga2);
+
+    // Facebook Pixel
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '870565440024711'); 
+    fbq('track', 'PageView');
+}
+// setTimeout(loadGlobalTracking, 4500);
+['mousemove', 'scroll', 'keydown', 'click', 'touchstart'].forEach(function(evt) {
+    window.addEventListener(evt, loadGlobalTracking, {passive: true});
+});
+</script>
+<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=870565440024711&ev=PageView&noscript=1" alt="Household Packers" /></noscript>
+<!-- End Tracking -->
+
+<nav class="navbar  navbar-color-on-scroll" id="sectionsNav">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://www.householdpackers.com/"><img class="img-responsive logo" alt="Household Packers" title="Packers and Movers in India" src="https://www.householdpackers.com/media/common/images/logo.png"/></a>
+</div>
+<div class="collapse navbar-collapse" id="navigation-example">
+<ul class="nav navbar-nav navbar-right menus">
+
+<li><a href="https://www.householdpackers.com/">Home</a></li>
+<li>
+<a href="javascript:void(0)">
+Packers Movers
+</a>
+<div class="dropdown-menus">
+		<ul>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/delhi">Delhi</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/gurgaon">Gurgaon</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/noida">Noida</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/ghaziabad">Ghaziabad</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/faridabad">Faridabad</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/mumbai">Mumbai</a></li>
+
+		</ul>
+		<ul class="left_part">
+		<li><a href="https://www.householdpackers.com/packers-and-movers/bangalore">Bangalore</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/chennai">Chennai</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/kolkata">Kolkata</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/hyderabad">Hyderabad</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/pune">Pune</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers/ahmedabad">Ahmedabad</a></li>
+		</ul>
+</div>
+</li>
+
+
+<li>
+<a href="javascript:void(0)">
+Services
+</a>
+<div class="dropdown-menus">
+		<ul style="width: auto;float: left;">
+		<li><a href="https://www.householdpackers.com/services/home-shifting-in-india">Home Shifting</a></li>
+		<li><a href="https://www.householdpackers.com/services/office-relocation-in-india">Office Relocation</a></li>
+		<li><a href="https://www.householdpackers.com/services/vehicle-shifting-in-india">Vehicle Shifting</a></li>
+		<li><a href="https://www.householdpackers.com/tempo-services">Tempo Services</a></li>
+		<li><a href="https://www.householdpackers.com/house-shifting-services-near-me">House Shifting Services Near Me</a></li>
+		<li><a href="https://www.householdpackers.com/packers-and-movers-near-me">Packers and Movers Near Me</a></li>
+		<li><a href="https://www.householdpackers.com/household-shifting-services">Household Shifting Sevices</a></li>
+		</ul>
+</div>
+</li>
+
+<li>
+<a href="https://www.householdpackers.com/do-and-dont">
+Do's & Don'ts
+</a>
+</li>
+<li><a href="tel:+91- 9355231695" style="color:#425899;font-weight:600;font-size:20px;">
+CALL US: +91- 9355231695 
+</a>
+</li>
+<!--<li><input type="text" class="find-packer" placeholder="Find Packers Movers In Your City" required>
+<input type="submit" value="GO" class="find-btn">
+</li>-->
+</ul>
+</div>
+</div>
+</nav>
+<div class="header-bottom text-center">
+<div class="container">
+<div class="row">
+<div class="m_callus"> CALL US: <a href="tel:+91- 9355231695">+91- 9355231695</a> </div>
+<div class="col-md-3">
+<div class="divisions">
+<img class="img-responsive" src="https://www.householdpackers.com/scripts/images/transporters.png" alt="Household Packers" title="IBA Verified 1200+ Transporters List"/>
+<span>1200+ Transporters List</span>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="divisions">
+<img class="img-responsive" src="https://www.householdpackers.com/scripts/images/customers.png" alt="Household Packers" title="Satisfied Customers"/>
+<span>17500+ Satisfied Customers</span>
+</div>
+</div>
+<div class="col-md-3">
+<div class="divisions">
+<img class="img-responsive" src="https://www.householdpackers.com/scripts/images/delivery.png" alt="Household Packers" title="On Time Delivery"/>
+<span> On Time Delivery</span>
+</div>
+</div>
+<div class="col-md-3">
+<div class="divisions">
+<img class="img-responsive" src="https://www.householdpackers.com/scripts/images/damage.png" alt="Household Packers" title="Safe and Damage Free Packing"/>
+<span> Safe & Secure</span>
+</div>
+</div>
+</div>
+</div>
+</div><div class="inner_container">
+  <div class="layout">
+  
+
+	 <div align="center" class="founders">
+	<img src="https://www.householdpackers.com/images/qr-code.jpg" alt="Household Packers" title="" width="400">
+	</div>
+    <!-- row1 starts here --->
+   <div class="page_middle_content" style="min-height:auto;"> 
+  
+
+		
+	
+	</div>
+   
+   
+  </div>
+  <?php include 'footer.php'; ?>
+
+<!-- Restored normal loading for jQuery to prevent errors -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="/media/js/jquery-1.10.2.js"></script>
+<script src="/media/js/owl.carousel.js"></script>
+<script type="text/javascript" src="/media/js/jquery.validate.min1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- Lazy Load Heavy Integrations (Zopim, Hotjar) -->
+<script>
+let heavyScriptsLoaded = false;
+function loadHeavyScripts() {
+    if (heavyScriptsLoaded) return;
+    heavyScriptsLoaded = true;
+
+    // HotJar
+    (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:884045,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+    // Zopim
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='//v2.zopim.com/?2lwb7jkwg62vmvpW8eQVNbbte2CIlVmj';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+
+    // Google Ads Conversions
+    var gads = document.createElement('script'); gads.async = true; gads.src = "https://www.googletagmanager.com/gtag/js?id=AW-806653057"; document.body.appendChild(gads);
+    gtag('config', 'AW-806653057/GcGlCKnK6qUBEIGZ0oAD', {'phone_conversion_number': '+91-9355231695'});
+}
+
+['mousemove', 'scroll', 'keydown', 'click', 'touchstart'].forEach(function(evt) {
+    window.addEventListener(evt, loadHeavyScripts, {passive: true});
+});
+// setTimeout(loadHeavyScripts, 4500);
+</script>
+
+<script>
+$(document).on('click', '.chk_box', function() {
+var str = this.id;
+if($("#"+str).is(':checked')){
+$("#service_sel").val("cbm");
+$("#service_sel-error").hide();
+}
+else{
+$("#service_sel").val("");
+$("#service_sel-error").show();
+}
+});
+$(document).on('click', '#btnsubmit', function(){
+    var alert_type = 0;
+    $('[name="service[]"]').each( function (){
+        if($(this).prop('checked') == true){
+            alert_type = 1;
+        }
+    });
+    if(alert_type == 1){
+        return true;
+    } else {
+        alert('Please select at leaset 1 type you want to shift.');
+        return false;
+    }
+});
+function change_code()
+{$.ajax({type:"POST",url:"https://www.householdpackers.com/home/change_code",success:function(data)
+{$('#sec_code').html(data);}});}
+(function($,W,D){var JQUERY4U={};JQUERY4U.UTIL={setupFormValidation:function()
+{$("#home-enq-form").validate({rules:{uname:"required",uphone:{required:true,number:true,minlength:10,maxlength:10},move_from:"required",move_to:"required",service_sel:"required",send_msg:"required",terms_condtions:{required:true,minlength:1}},messages:{uname:"Please enter your name",uphone:"Please enter valid mobile no",move_from:"Pease select city move from",move_to:"Please select city move to",service_sel: "Please select what you want to shift",send_msg:"Please mention the detail of items.",terms_condtions:"Please accept Terms & Conditions"},submitHandler:function(form){form.submit();}});}}
+$(D).ready(function($){JQUERY4U.UTIL.setupFormValidation();});})(jQuery,window,document);
+</script>
+
+<script>$(document).ready(function(){$(function(){$("#city_from").autocomplete({source:function(request,response){$.ajax({url:base_url+"home/get_city_suggetion",data:{term:$("#city_from").val()},dataType:"json",type:"POST",success:function(data){response(data);},error:function(xhr,status,error){alert(xhr.responseText);}});},minLength:2});});});
+$(document).ready(function(){$(function(){$("#city_to").autocomplete({source:function(request,response){$.ajax({url:base_url+"home/get_city_suggetion",data:{term:$("#city_to").val()},dataType:"json",type:"POST",success:function(data){response(data);},error:function(xhr,status,error){alert(xhr.responseText);}});},minLength:2});});});</script>
+<script src="https://www.householdpackers.com/media/common/js/jquery.totemticker.js"></script>
+<script>$(function(){
+$('.vertical-ticker').totemticker({row_height:'100px',next:'#ticker-next',previous:'#ticker-previous',stop:'#stop',start:'#start',mousestop:true,});});
+$(document).ready(function(){$(".nav-button").click(function(){$(".nav-button,.primary-nav").toggleClass("open");});$('.menu li').hover(function(){$('ul',this).stop().slideDown(400);},function(){$('ul',this).stop().slideUp(400);});});
+var base_url = 'https://www.householdpackers.com/';
+$(document).ready(function() {		
+$(function(){$("#search_agents").autocomplete({source: function(request, response) {var dataString = 'term='+ $("#search_agents").val();$.ajax({url: "https://www.householdpackers.com/home/get_suggetion",data: { term: $("#search_agents").val()},dataType: "json",type: "POST",success: function(data){response(data);}});},minLength: 2});});});
+$(document).ready(function(){$(function() {$("#city_name").autocomplete({source: function(request, response) {$.ajax({url: base_url+"home/get_city_suggetion",data: { term: $("#city_name").val()},dataType: "json",type: "POST",success: function(data){response(data);},error: function(xhr, status, error) {    alert(xhr.responseText); }});},minLength: 2});});});
+function goto_form(){var city_val = $("#city_name").val().toLowerCase();var city_val = city_val.replace(" ", "-");var url = base_url+'packers-movers-'+city_val;$(location).attr('href',url);}
+</script>
+
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "householdpackers",
+  "url": "https://www.householdpackers.com/"
+}
+</script>
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "Householdpackers",
+  "url": "https://www.householdpackers.com/",
+  "logo": "https://www.householdpackers.com/media/common/images/logo.png",
+  "image": "https://www.householdpackers.com/",
+  "description": "Householdpackers.com is India’s Largest Network of Home Packers and Movers. We connect customers to the best and the most professional movers and packers in the country. With the largest network of transporters, carriers, packers and movers in the country, we are your one stop shop for all shifting and transport needs.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "774, Udyog Vihar Phase 5 Gurgaon, Haryana 122001",
+    "postOfficeBoxNumber": "122001",
+    "addressLocality": "Gurgaon",
+    "addressRegion": "Haryana",
+    "postalCode": "122001",
+    "addressCountry": "India"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919355231695",
+    "contactType": "Customer Service"
+  }
+}
+</script>
+<script type='application/ld+json'>
+{
+"@context": "http://www.schema.org",
+ "@type": "Place",
+  "geo": {
+    "@type": "GeoCoordinates",
+     "latitude": "28.504801",
+    "longitude": "77.079964"
+  }
+}
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+    $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+    });
+    $('img').attr('draggable', false);
+
+  });
+  
+  document.onkeydown = function(e) {
+    if(e.keyCode == 123) {
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+     return false;
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+     return false;
+    }
+
+    if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+     return false;
+    }   
+  }
+</script>
+
