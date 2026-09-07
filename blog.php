@@ -9,7 +9,7 @@
     
     <!-- Open Graph for Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.householdpackers.com/blog.html">
+    <meta property="og:url" content="https://www.householdpackers.com/blog.php">
     <meta property="og:title" content="Moving Tips & Relocation Guides - Household Packers">
     <meta property="og:description" content="Discover essential tips and tricks for a smooth, damage-free moving experience with our comprehensive blog.">
     
@@ -28,7 +28,7 @@
       "@context": "https://schema.org",
       "@type": "Blog",
       "name": "Household Packers Blog",
-      "url": "https://www.householdpackers.com/blog.html",
+      "url": "https://www.householdpackers.com/blog.php",
       "description": "Expert advice, tips, and guides for safe and efficient relocation."
     }
     </script>

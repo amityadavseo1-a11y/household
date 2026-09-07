@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,7 +52,7 @@
     <!-- Hero Section -->
     <section class="hero" style="min-height: 500px;">
         <div class="hero-carousel">
-            <div class="carousel-slide" style="background-image: url('images/packers_and_movers.jpg'); opacity: 1;"></div>
+            <div class="carousel-slide" style="background-image: url('images/mumbai_movers.jpg'); opacity: 1;"></div>
         </div>
         <div class="container hero-content">
             <div class="hero-text">
@@ -234,7 +234,7 @@
                 
                 <div class="about-image-wrapper animate-on-scroll" style="transition-delay: 0.2s;">
                     <div class="about-image-container">
-                        <img src="images/about_movers.jpg" alt="Household Packers in Mumbai" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; height: auto;">
+                        <img src="images/mumbai_movers.jpg" alt="Household Packers in mumbai" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; height: auto;">
                     </div>
                 </div>
             </div>

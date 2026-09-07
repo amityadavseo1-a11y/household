@@ -9,7 +9,7 @@
     
     <!-- Open Graph for Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.householdpackers.com/bank-details.html">
+    <meta property="og:url" content="https://www.householdpackers.com/bank-details.php">
     <meta property="og:title" content="Bank Details - Household Packers">
     <meta property="og:description" content="Bank details for NEFT Transfer to Household Packers.">
     

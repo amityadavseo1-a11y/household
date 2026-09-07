@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -443,19 +443,19 @@
             <h2 class="section-title animate-on-scroll">What Our Customers Say</h2>
             <div class="services-grid">
                 <div class="service-card animate-on-scroll">
-                    <h3 style="margin-bottom: 5px;">Amit Sharma</h3>
+                    <h3 style="margin-bottom: 5px;">Pooja Bhatia</h3>
                     <span style="color:#FEE559; font-size:1.2rem;">★★★★★</span>
-                    <p style="margin-top:15px; font-style:italic;">"Excellent service by Household Packers. They carefully packed all my fragile items and delivered everything to Bangalore from Delhi safely."</p>
+                    <p style="margin-top:15px; font-style:italic;">"I was looking for a relocation service provider that moved household items. Then, householdpackers.com suggested to me IBA approved moving company that fulfilled all my moving needs right within my budget."</p>
                 </div>
                 <div class="service-card animate-on-scroll" style="transition-delay: 0.1s;">
-                    <h3 style="margin-bottom: 5px;">Priya Gupta</h3>
+                    <h3 style="margin-bottom: 5px;">Himani Saini</h3>
                     <span style="color:#FEE559; font-size:1.2rem;">★★★★★</span>
-                    <p style="margin-top:15px; font-style:italic;">"Very professional team. Shifted my 2BHK within Mumbai seamlessly. Highly recommend for quick and affordable moving."</p>
+                    <p style="margin-top:15px; font-style:italic;">"I took the help of Perfect Packers and Movers to shift the goods of my 2bhk flat from Bangalore to Delhi. They packed and moved the goods with extreme care. Highly recommended!"</p>
                 </div>
                 <div class="service-card animate-on-scroll" style="transition-delay: 0.2s;">
-                    <h3 style="margin-bottom: 5px;">Rahul Verma</h3>
-                    <span style="color:#FEE559; font-size:1.2rem;">★★★★☆</span>
-                    <p style="margin-top:15px; font-style:italic;">"Great platform to compare rates. Got my car transported safely to Pune. The support team was also very responsive."</p>
+                    <h3 style="margin-bottom: 5px;">Chandresh Narayanan</h3>
+                    <span style="color:#FEE559; font-size:1.2rem;">★★★★★</span>
+                    <p style="margin-top:15px; font-style:italic;">"I had a good shifting experience with DHL Express Packers and Movers in Bangalore. The company conducted an online survey of items that were meant to be shifted and then send me a moving quote that suited my budget."</p>
                 </div>
             </div>
         </div>

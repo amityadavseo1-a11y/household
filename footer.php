@@ -4,9 +4,9 @@
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li><a href="blog.html">Blog & Tips</a></li>
+                        <li><a href="about-us.php">About Us</a></li>
+                        <li><a href="contact-us.php">Contact Us</a></li>
+                        <li><a href="blog.php">Blog & Tips</a></li>
                         <li><a href="#">How it Works</a></li>
                     </ul>
                 </div>
@@ -15,20 +15,20 @@
                     <ul>
                         <li><a href="#">Sitemap</a></li>
                         <li><a href="#" id="open-paytm-modal">Paytm Payment</a></li>
-                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="bank-details.html">Bank Details</a></li>
+                        <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="bank-details.php">Bank Details</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="house-shifting.html">House Shifting</a></li>
-                        <li><a href="office-relocation.html">Office Relocation</a></li>
-                        <li><a href="car-transportation.html">Car Transportation</a></li>
-                        <li><a href="bike-transportation.html">Bike Transportation</a></li>
-                        <li><a href="furniture-shifting.html">Furniture Shifting</a></li>
-                        <li><a href="packers-and-movers.html">Packers and Movers</a></li>
+                        <li><a href="house-shifting.php">House Shifting</a></li>
+                        <li><a href="office-relocation.php">Office Relocation</a></li>
+                        <li><a href="car-transportation.php">Car Transportation</a></li>
+                        <li><a href="bike-transportation.php">Bike Transportation</a></li>
+                        <li><a href="furniture-shifting.php">Furniture Shifting</a></li>
+                        <li><a href="packers-and-movers.php">Packers and Movers</a></li>
                     </ul>
                 </div>
                 <div class="footer-col footer-contact-custom">

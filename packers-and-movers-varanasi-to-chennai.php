@@ -52,7 +52,7 @@
     <!-- Hero Section -->
     <section class="hero" style="min-height: 500px;">
         <div class="hero-carousel">
-            <div class="carousel-slide" style="background-image: url('images/packers_and_movers.jpg'); opacity: 1;"></div>
+            <div class="carousel-slide" style="background-image: url('images/cities/varanasi-to-chennai_hero.jpg'); opacity: 1;"></div>
         </div>
         <div class="container hero-content">
             <div class="hero-text">
@@ -234,7 +234,7 @@
                 
                 <div class="about-image-wrapper animate-on-scroll" style="transition-delay: 0.2s;">
                     <div class="about-image-container">
-                        <img src="images/about_movers.jpg" alt="Household Packers from Varanasi to Chennai" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; height: auto;">
+                        <img src="images/cities/varanasi-to-chennai_hero.jpg" alt="Household Packers in varanasi-to-chennai" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; height: auto;">
                     </div>
                 </div>
             </div>
@@ -573,7 +573,7 @@
             <h2 class="section-title animate-on-scroll" style="margin-bottom: 40px;">Our Recent Blogs</h2>
             <div class="blog-grid animate-on-scroll">
                 <a href="blog.php" class="blog-card">
-                    <img src="images/blog_moving_tips_1787215910231.jpg" alt="Household Packers from Varanasi to Chennai">
+                    <img src="images/cities/varanasi-to-chennai_hero.jpg" alt="Household Packers in varanasi-to-chennai">
                     <div class="blog-content">
                         <span class="blog-category">Moving Tips</span>
                         <h3>Top 10 Tips for a Stress-Free Move</h3>
@@ -583,7 +583,7 @@
                 </a>
                 
                 <a href="blog.php" class="blog-card">
-                    <img src="images/blog_packing_guide_1787215928271.jpg" alt="Household Packers from Varanasi to Chennai">
+                    <img src="images/cities/varanasi-to-chennai_hero.jpg" alt="Household Packers in varanasi-to-chennai">
                     <div class="blog-content">
                         <span class="blog-category">Packing Guide</span>
                         <h3>How to Choose the Right Packing Materials</h3>
@@ -593,7 +593,7 @@
                 </a>
                 
                 <a href="blog.php" class="blog-card">
-                    <img src="images/blog_office_relocation_1787215955789.jpg" alt="Household Packers from Varanasi to Chennai">
+                    <img src="images/cities/varanasi-to-chennai_hero.jpg" alt="Household Packers in varanasi-to-chennai">
                     <div class="blog-content">
                         <span class="blog-category">Corporate</span>
                         <h3>A Smooth Guide to Office Relocation</h3>
